@@ -235,6 +235,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
 				<version>3.26.0</version>
+				<configuration>
+					<rulesets>
+						<ruleset>pmd-custom-ruleset.xml</ruleset>
+					</rulesets>
+				    <linkXRef>false</linkXRef>
+				</configuration>
 				<executions>
 	                <execution>
 	                    <phase>validate</phase> 

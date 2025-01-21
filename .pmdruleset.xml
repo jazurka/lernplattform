@@ -6,8 +6,8 @@
    <description>M2Eclipse PMD RuleSet</description>
    <exclude-pattern>.*C:/Users/nbirk/Documents/lernplattform/lernplattform/target.*</exclude-pattern>
    <exclude-pattern>.*C:/Users/nbirk/Documents/lernplattform/lernplattform/src/test/java.*</exclude-pattern>
+   <rule ref="category/java/bestpractices.xml/SystemPrintln"/>
    <rule ref="category/java/bestpractices.xml/AvoidUsingHardCodedIP"/>
-   <rule ref="category/java/bestpractices.xml/CheckResultSet"/>
    <rule ref="category/java/bestpractices.xml/PrimitiveWrapperInstantiation"/>
    <rule ref="category/java/bestpractices.xml/UnusedFormalParameter"/>
    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable"/>
@@ -16,7 +16,6 @@
    <rule ref="category/java/codestyle.xml/EmptyControlStatement"/>
    <rule ref="category/java/codestyle.xml/ExtendsObject"/>
    <rule ref="category/java/codestyle.xml/ForLoopShouldBeWhileLoop"/>
-   <rule ref="category/java/codestyle.xml/TooManyStaticImports"/>
    <rule ref="category/java/codestyle.xml/UnnecessaryFullyQualifiedName"/>
    <rule ref="category/java/codestyle.xml/UnnecessaryImport"/>
    <rule ref="category/java/codestyle.xml/UnnecessaryModifier"/>
